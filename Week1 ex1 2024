@@ -1,0 +1,19 @@
+let shuttleName = 'Determination';
+let shuttleSpeedMph = 17500;
+let distanceToMarsKm = 225000000;
+let distanceToMoonKm = 38400;
+const milesPerKM = 0.621;
+
+console.log ("shuttleName");
+console.log ("shuttleSpeedMph");
+console.log ("distanceToMarsKm");
+console.log ("distanceToMoonKM");
+
+
+let milesToMars = distanceToMarsKm * milesPerKM;
+let hoursToMars = milesToMars / shuttleSpeedMph;
+let daysToMars = hoursToMars / 24;
+
+console.log ("milesToMars");
+console.log ("hoursToMars");
+console.log ("daysToMars")
